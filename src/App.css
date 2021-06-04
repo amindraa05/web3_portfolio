@@ -1,38 +1,157 @@
-.App {
+.header-color{
+  background: #7b4397;
+  background: -webkit-linear-gradient(to right,#dc2430,#7b4397);
+  background: linear-gradient(to right,#dc2430,#7b4397);
+}
+
+.beranda-grid{
+  background: #7b4397;
+  background: -webkit-linear-gradient(to right,#dc2430,#7b4397);
+  background: linear-gradient(to right,#dc2430,#7b4397);
   text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.projects-grid{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.avatar-img{
+  padding-top: 5em;
+  border-radius: 100%;
+  width: 15%;
+}
+
+.banner-text{
+  background-color: black;
+  opacity: .8;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1{
+  font-size: 66px;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr{
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+}
+
+/* Tentang Saya */
+.container-fluid{
+  margin-top: 2%;
+}
+
+.bungkus{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin: 4% 0;
+}
+
+.img-profile{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  width: 250px;
+}
+
+.page-content{
+  margin: 0 7%;
+}
+
+.name-profile{
+  margin-top: 6%;
+}
+
+.about-profile{
+  text-align: justify;
+  margin-right: 5%;
+}
+
+.soc-profile a{
+  padding-right: 3%;
+  padding-top: 4%;
+}
+
+.soc-profile i{
+  color: rgb(77, 75, 75);
+  font-size: 3em;
+}
+
+/* karya */
+.karya-pic{
+  margin: 4% 0 4% 2%;
+  
+}
+.karya-pic img{
+  background: rgba( 27, 26, 26, 0.40 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 13.0px );
+  -webkit-backdrop-filter: blur( 13.0px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.karya-desc{
+  margin: 4% 0 0 10%;
+}
+.karya-content{
+  text-align: justify;
+  margin-right: 10%;
+  font-size: larger;
+}
+
+.first-link{
+  margin-right: 3%;
+}
+
+.pic-covid img{
+  margin-right: 1.3%;
+}
+
+/* Kontak */
+.kontak-cont{
+  text-align: center;
+  margin: 3%;
+}
+
+
+.kontak-soc{
+  font-size: 4em;
+}
+
+.kontak-soc i{
+  color: black;
+  padding: 0 1%;
 }
