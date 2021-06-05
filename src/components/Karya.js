@@ -22,7 +22,7 @@ class Karya extends Component {
                                     <p className="karya-content">Web yang memantau pergerakan harga 100 koin cryptocurrency dengan market cap terbesar dan update setiap menitnya,
                                         menampilkan harga terkini,market cap,dan persentase perubahan harga 24 jam terakhir.
                                     </p>
-                                    <a className="btn btn-warning first-link" href="https://jolly-euclid-d967d6.netlify.app" target="_blank">
+                                    <a className="btn btn-warning first-link" href="https://eloquent-lumiere-1f87a3.netlify.app" target="_blank">
                                         Link Website (Deployed)
                                     </a>
                                     <a className="btn btn-dark" href="https://github.com/amindraa05/cryptoTable-Nextjs" target="_blank">
