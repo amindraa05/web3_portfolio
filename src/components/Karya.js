@@ -48,7 +48,7 @@ class Karya extends Component {
                                         <h2>Covid Tracker Indonesia</h2>
                                         <p className="karya-content">Aplikasi android yang memantau data kasus covid di Indonesia mulai dari total kasus nasional,data positif,data pasien sembuh,data pasien dirawat di setiap provinsi di Indonesia
                                         </p>
-                                        <a className="btn btn-dark" href="https://github.com/amindraa05/cryptoTable-Nextjs" target="_blank">
+                                        <a className="btn btn-dark" href="https://github.com/amindraa05/CovidTracker" target="_blank">
                                             <i class="fab fa-github"></i> Github Project Link
                                         </a>
                                     </div>
